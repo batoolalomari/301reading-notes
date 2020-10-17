@@ -4,6 +4,6 @@ This a reading notes for 301 Intermediate Software Development course, where you
 
 ## [Code 102 - Intro to Software Development](https://batoolalomari.github.io/ReadMe/)
 ## [Code 201 - Foundations of Software Development](https://batoolalomari.github.io/201readingNote/)
-## [Code 301 - Intermediate Software Development]()
+## [Code 301 - Intermediate Software Development](https://batoolalomari.github.io/301reading-notes/301Reading-note)
 ## Code 401 - Advanced Software Development
 
