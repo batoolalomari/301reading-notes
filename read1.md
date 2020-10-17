@@ -73,7 +73,39 @@ Padding is then given to the bottom of the parent element, the value of which is
 ![flexible](for.png)
 
 
+## What is “Float”?
 
+Float is a CSS positioning property. It is commonly and appropriately called “text wrap”.
+
+![float](float.png)
+
+         #sidebar {
+            float: right;			
+           }
+
+## What are floats used for?
+floats can be used to create entire web layouts.
+
+![used](used.png)
+
+## Clearing the Float
+
+Float’s sister property is clear. An element that has the clear property set on it will not move up adjacent to the float like the float desires, but will move itself down past the float.
+
+![used](clear.png)
+
+In the above image, the sidebar is floated to the right and is shorter than the main content area. The footer then is required to jump up into that available space as is required by the float. To fix this problem, the footer can be cleared to ensure it stays beneath both floated columns.
+
+        #footer {
+             clear: both;			
+           }
+
+![used](clear1.png)
+
+
+Clear has four valid values as well. **Both** is most commonly used, which clears floats coming from either direction. **Left and Right** can be used to only clear the float from one direction respectively. **None** is the default, which is typically unnecessary unless removing a clear value from a cascade. **Inherit** would be the fifth, but is strangely not supported in Internet Explorer. Clearing only the left or right float, while less commonly seen in the wild, definitely has its uses.
+
+![used](clear3.png)
 
 
 
