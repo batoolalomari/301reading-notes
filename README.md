@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+# 301reading-notes
 
-You can use the [editor on GitHub](https://github.com/batoolalomari/301reading-notes/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+This a reading notes for 301 Intermediate Software Development course, where you'll learn how to become a well-rounded web developer. It'll be a lot of work and a lot of fun. course.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## [Code 102 - Intro to Software Development](https://batoolalomari.github.io/ReadMe/)
+## [Code 201 - Foundations of Software Development](https://batoolalomari.github.io/201readingNote/)
+## [Code 301 - Intermediate Software Development]()
+## Code 401 - Advanced Software Development
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/batoolalomari/301reading-notes/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
