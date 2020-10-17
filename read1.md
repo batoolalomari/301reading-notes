@@ -29,3 +29,52 @@ The formula is based around taking the target width of an element and dividing i
            
         target ÷ context = result
 
+## Media Queries
+
+Media queries provide the ability to specify different styles for individual browser and device circumstances, the width of the viewport or device orientation for example.
+
+### Initializing Media Queries
+
+here are a couple different ways to use media queries, using the @media rule inside of an existing style sheet, importing a new style sheet using the @import rule, or by linking to a separate style sheet from within the HTML document. Generally speaking it is recommend to use the @media rule inside of an existing style sheet to avoid any additional HTTP requests.
+
+![media](example.png)
+
+Each media query may include a media type followed by one or more expressions. Common media types include all, screen, print, tv, and braille. 
+The media query expression that follows the media type may include different media features and values, which then allocate to be true or false. When a media feature and value allocate to true, the styles are applied. If the media feature and value allocate to false the styles are ignored.
+
+### Logical Operators in Media Queries
+There are three different logical operators available for use within media queries, including **and, not, and only.**
+
+Using the and logical operator within a media query allows an extra condition to be added, making sure that a browser or devices does both a, b, c, and so forth.
+
+       @media all and (min-width: 800px) and (max-width: 1024px) {...}
+
+The not logical operator negates the query, specifying any query but the one identified.
+       
+       @media not screen and (color) {...}
+
+The only logical operator is a new operator and is not recognized by user agents using the HTML4 algorithm, thus hiding the styles from devices or browsers that don’t support media queries. 
+
+       @media only screen and (orientation: portrait) {...}
+
+
+## Flexible Media
+
+One quick way to make media scalable is by using the max-width property with a value of 100%. Doing so ensures that as the viewport gets smaller any media will scale down according to its containers width.
+
+      img, video, canvas {
+           max-width: 100%;
+           }
+### Flexible Embedded Media
+Unfortunately the max-width property doesn’t work well for all instances of media, specifically around iframes and embedded media. 
+To get embedded media to be fully responsive, the embedded element needs to be absolutely positioned within a parent element. The parent element needs to have a width of 100% so that it may scale based on the width of the viewport. The parent element also needs to have a height of 0 to trigger the hasLayout mechanism within Internet Explorer.
+Padding is then given to the bottom of the parent element, the value of which is set in the same aspect ratio of the video. This allows the height of the parent element to be proportionate to that of it’s width.
+
+![flexible](for.png)
+
+
+
+
+
+
+
