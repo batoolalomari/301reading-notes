@@ -7,7 +7,7 @@
 
    Read#             | Reading Topics
   ------------------ | ------------------- 
-  [Read: 01 -] | SMACSS and Responsive Web Design
+  [Read: 01 -](https://batoolalomari.github.io/301reading-notes/read1) | SMACSS and Responsive Web Design
   [Read: 02 -] | jQuery, Events, and The DOM
   [Read: 03 -] | Flexbox and Templating
   [Read: 04 -] | Responsive Web Design and Regular Expressions
