@@ -19,3 +19,17 @@
    4. Social skills
    5. Job interview readiness
    6. Work environment readiness
+
+
+# jQuery 
+jQuery offers a simple way to achieve a variety of common JavaScript tasks quickly and consistently, across all major browsers and without any fallback code needed.
+
+![jq](jq.png)
+
+## What is jQuery ?
+JS file that include in your web pages. Its let you find element using CSS-style sellectorthen do somethings with the element using jQuery methoods.
+![jq](jq1.png)
+## Find element using CSS-style 
+![jq](js3.png)
+
+
