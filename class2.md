@@ -42,6 +42,9 @@ JS file that include in your web pages. Its let you find element using CSS-style
 
 ![jq](jq4.png)
 
+
+# Examples :
+
 ![jq](jq5.png)
 
 ![jq](jq6.png)
