@@ -28,8 +28,24 @@ jQuery offers a simple way to achieve a variety of common JavaScript tasks quick
 
 ## What is jQuery ?
 JS file that include in your web pages. Its let you find element using CSS-style sellectorthen do somethings with the element using jQuery methoods.
+
 ![jq](jq1.png)
+
 ## Find element using CSS-style 
 ![jq](js3.png)
+
+## Do somthing with gQuery
+![jq](jq2.png)
+
+## Difference with DOM
+![jq](jq3.png)
+
+![jq](jq4.png)
+
+![jq](jq5.png)
+
+![jq](jq6.png)
+
+
 
 
