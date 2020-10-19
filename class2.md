@@ -40,10 +40,10 @@ JS file that include in your web pages. Its let you find element using CSS-style
 ## Difference with DOM
 ![jq](jq3.png)
 
-![jq](jq4.png)
-
 
 # Examples :
+
+![jq](jq4.png)
 
 ![jq](jq5.png)
 
