@@ -35,7 +35,7 @@ JS file that include in your web pages. Its let you find element using CSS-style
 ![jq](js3.png)
 
 ## Do somthing with gQuery
-![jq](jq2.png)
+![jq](jg2.png)
 
 ## Difference with DOM
 ![jq](jq3.png)
